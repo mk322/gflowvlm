@@ -169,27 +169,22 @@
 
       <!-- Image 1 -->
       <div class="image-block">
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT">
-        <h2 class="subtitle has-text-centered">First image description.</h2>
+        <img src="images/diagram.png" alt="MY ALT TEXT">
+        <h2 class="subtitle has-text-centered">*Overall framework of proposed method*: The input $z_{0:t}$ at time step $t$ consists of a visual observation $o_t$ and an input prompt $p_t$ containing goal description, history states $s_{0:t}$, history actions $a_{0:t}$, and admissible actions $\mathcal{A}_{t}$, and outputs CoT reasoning $c_t$, and action $a_t$. The $a_t$ is executed in the environment to obtain reward $r_t(s_t, a_t)$, next observation $o_{t+1}$, and action space $\mathcal{A}_{t+1}$. $f$ generates the next prompt $p_{t+1}$ using description of next observation $o_{t+1}$ (if applicable), history of states $s_{0:t}$ and actions $a_{0:t}$ and next admissible actions $\mathcal{A}_{t+1}$. This generates multiple trajectories. The transitions $<s_t, a_t, r_t, c_t>$ , $<s_t', a_t', r_t', c_t'>$ and $<s_t'', a_t'', r_t'', c_t''>$ across different trajectories are added to buffer to update the forward policy $P_{F}$ using GFlowNets. $\{ x, x', x''\} \in \mathcal{X}$ represent the terminal states of sequences. $R(x)$ represents the non-negative reward obtained from the environment (after reward shaping, if applicable) at terminal state $x$ of a trajectory.</h2>
       </div>
 
       <!-- Image 2 -->
       <div class="image-block">
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT">
-        <h2 class="subtitle has-text-centered">Second image description.</h2>
+        <img src="images/table1.png" alt="MY ALT TEXT">
+        <h2 class="subtitle has-text-centered">Performance comparisons across baseline models for NumberLine (NL) and BlackJack (BJ) tasks for in-distribution and out-of-distributions (OOD) tasks.</h2>
       </div>
 
       <!-- Image 3 -->
       <div class="image-block">
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT">
-        <h2 class="subtitle has-text-centered">Third image description.</h2>
+        <img src="images/table2.png" alt="MY ALT TEXT">
+        <h2 class="subtitle has-text-centered">Results of ALFWorld.</h2>
       </div>
 
-      <!-- Image 4 -->
-      <div class="image-block">
-        <img src="static/images/carousel4.jpg" alt="MY ALT TEXT">
-        <h2 class="subtitle has-text-centered">Fourth image description.</h2>
-      </div>
 
     </div>
   </div>
